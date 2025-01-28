@@ -1,16 +1,26 @@
+<!-- Room Makeover
+Your parents want to paint your room and are asking for your favorite color. You decide to show them your favorite color through this HTML page of yours.
+
+Acceptance Criteria:
+Criteria	Description
+Paragraph Content	Inside a < p > tag, write "My favorite color is [color-name]". You must replace [color-name] with your actual favorite color.
+Span with Class	Enclose the color name within span tags inside the paragraph. The span tag must have a class attribute with the value .
+Style	Provide a style to your [color-name] through the class favorite-color. You must define a CSS color property for this class. -->
+
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .favorite-color{
+      color: red;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <p> My favorite color is <span class="favorite-color">red</span></p>
 </body>
-
 </html>
